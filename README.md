@@ -24,7 +24,7 @@ Este projeto é uma aplicação simples de **resumo automático de texto** usand
 - Crie um novo Space em huggingface.co/spaces.
 - Escolha o tipo Gradio.
 - Faça upload dos arquivos app.py, requirements.txt e README.md
-> **Importante:** o arquivo `README.md` deve conter **apenas os metadados** no formato YAML entre `---`. Esses metadados são usados pelo Hugging Face para configurar o Space. Não inclua instruções, textos explicativos ou exemplos fora desse bloco, pode acontecer conflitos.
+- o arquivo `README.md` deve conter **apenas os metadados** no formato YAML entre `---`. Esses metadados são usados pelo Hugging Face para configurar o Space. Não inclua instruções, textos explicativos ou exemplos fora desse bloco, pode haver conflitos.
 
 Exemplo de `README.md` válido para Spaces:
 
@@ -39,7 +39,7 @@ sdk_version: "3.50.2"
 app_file: app.py
 pinned: false
 ---
-
+```
 ## Acesse o projeto online
 
 Você pode testar a aplicação diretamente no Hugging Face Spaces:
