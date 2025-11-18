@@ -1,3 +1,14 @@
+---
+title: chat-with-liteLlama
+emoji: 🦙
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "3.50.2"
+app_file: app.py
+pinned: false
+---
+
 # Chat com HUGGING FACE
 
 Este é um projeto básico de chatbot que utiliza o modelo **LiteLlama-460M-1T** da Hugging Face para gerar respostas a perguntas.
