@@ -1,5 +1,5 @@
 ---
-title: chat-with-liteLlama
+title: chat-with-AI
 emoji: 🦙
 colorFrom: blue
 colorTo: green
@@ -8,26 +8,24 @@ sdk_version: "3.50.2"
 app_file: app.py
 pinned: false
 ---
+# Resumo de Texto com BART - Hugging Face + Gradio
 
-# Chat com HUGGING FACE
+Este projeto é uma aplicação simples de **resumo automático de texto** usando o modelo [`facebook/bart-large-cnn`](https://huggingface.co/facebook/bart-large-cnn) da Hugging Face, com interface interativa criada com **Gradio**.
 
-Este é um projeto básico de chatbot que utiliza o modelo **LiteLlama-460M-1T** da Hugging Face para gerar respostas a perguntas.
+## Funcionalidades
 
-O app foi criado com **Gradio** e pode ser executado localmente ou hospedado gratuitamente no **Hugging Face Spaces**.
+- Interface web para inserir qualquer texto.
+- Geração de resumo automático com o modelo BART.
+- Publicação fácil no Hugging Face Spaces.
 
----
-
-## Como funciona
-
-- O usuário digita uma pergunta.
-- O modelo LiteLlama gera uma resposta baseada na entrada.
-- A interface é simples e interativa, feita com Gradio.
-
----
+## Deploy no Hugging Face Spaces
+- Crie um novo Space em huggingface.co/spaces.
+- Escolha o tipo Gradio.
+- Faça upload dos arquivos app.py, requirements.txt e README.md.
 
 ## Executar localmente
 
-1. Instale as dependências:
+1. Clone o repositorio e Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
