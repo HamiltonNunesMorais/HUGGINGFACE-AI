@@ -14,12 +14,16 @@ O app foi criado com **Gradio** e pode ser executado localmente ou hospedado gra
 
 ---
 
-## ▶️ Executar localmente
+## Executar localmente
 
 1. Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
+
+```
+2. Execute o app:
+```bash
 python app.py
 
 ```
