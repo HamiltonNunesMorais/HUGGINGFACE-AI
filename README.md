@@ -23,6 +23,14 @@ Este projeto é uma aplicação simples de **resumo automático de texto** usand
 - Escolha o tipo Gradio.
 - Faça upload dos arquivos app.py, requirements.txt e README.md.
 
+
+## Acesse o projeto online
+
+Você pode testar a aplicação diretamente no Hugging Face Spaces:
+
+[Clique aqui para acessar o Space]([https://huggingface.co/spaces/seu-usuario/seu-space](https://huggingface.co/spaces/HNDMORA/chat-with-AI))
+
+
 ## Executar localmente
 
 1. Clone o repositorio e Instale as dependências:
