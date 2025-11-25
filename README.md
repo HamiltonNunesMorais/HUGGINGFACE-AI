@@ -49,8 +49,11 @@ Você pode testar a aplicação diretamente no Hugging Face Spaces:
 
 ## Executar localmente
 
-1. Clone o repositorio.
+1. Clone o repositorio:
+```bash
+git clone https://github.com/HamiltonNunesMorais/HUGGINGFACE-AI.git
 
+```
 2. Instale as dependências:
 
 ```bash
