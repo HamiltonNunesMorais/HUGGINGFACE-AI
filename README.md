@@ -54,13 +54,20 @@ Você pode testar a aplicação diretamente no Hugging Face Spaces:
 git clone https://github.com/HamiltonNunesMorais/HUGGINGFACE-AI.git
 
 ```
-2. Instale as dependências:
+2. Ambiente Virtual (evita conflitos com outras bibliotecas do sistema):
+```bash
+# Crie o ambiente
+python -m venv venv
+# Ative o ambiente (Windows)
+venv\Scripts\activate
+```
+3. Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
 
 ```
-3. Execute o app:
+4. Execute o app:
 ```bash
 python app.py
 
