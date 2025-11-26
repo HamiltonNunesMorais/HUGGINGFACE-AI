@@ -16,5 +16,4 @@ gr.Interface(
     outputs=gr.Textbox(label="Resumo gerado"),
     title="Resumo de Texto com BART",
     description="Insira um texto e receba um resumo gerado pelo modelo BART da Hugging Face.",
-    theme="default"
 ).launch()
